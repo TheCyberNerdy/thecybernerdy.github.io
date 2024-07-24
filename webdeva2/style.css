@@ -17,6 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
+    background: rgba(59, 156, 177, 0.626);
 }
 
 .page {
@@ -222,6 +223,10 @@ nav a {
     nav ul {
         display: flex;
     }
+
+    qr {
+        display: flex;
+    }
 }
 
 /*CSS for responsive menu*/
@@ -242,6 +247,12 @@ nav a {
     nav li {
         width: 100%;
         text-align: center;
+    }
+
+    qr {
+        display: none;
+        justify-content: center;
+        align-items: center;
     }
 }
 
