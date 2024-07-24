@@ -76,7 +76,7 @@
                 </p>
             </div>
 
-            <div id="qr"><img src="images/qr.png" alt="QR Code"> Scan QR code to view on mobile</div>
+            <img src="images/qr.png" alt="QR Code" class="qr">
         </div>
         <div class="page" id="page2">
             <div class="p2Item1">
@@ -216,7 +216,7 @@
                         Eat?</a></b><br>
             </div>
 
-            <div id="qr"><img src="images/qr.png" alt="QR Code"> Scan QR code to view on mobile</div>
+            <img src="images/qr.png" alt="QR Code" class="qr">
         </div>
         <div class="page" id="page3">
             <div class="p3Item1">
@@ -260,7 +260,7 @@
                         Adaptations, Habitats, Lifespan | Britannica</a></b><br>
             </div>
 
-            <div id="qr"><img src="images/qr.png" alt="QR Code"> Scan QR code to view on mobile</div>
+            <img src="images/qr.png" alt="QR Code" class="qr">
         </div>
             <div class="page" id="page4">
                 <button id="leftBtn">Left</button>
@@ -272,7 +272,7 @@
                     <div id="player"></div>
                 </div>
 
-                <div id="qr"><img src="images/qr.png" alt="QR Code"> Scan QR code to view on mobile</div>
+                <img src="images/qr.png" alt="QR Code" class="qr">
             </div>
 
             <div class="page" id="page5">
@@ -285,16 +285,16 @@
                         <option value="herbivorous">Herbivorous (e.g., Sulcata Tortoise)</option>
                     </select><br><br>
 
-                    <label for="age">Age of Turtle:</label>
-                    <input type="number" id="age" name="age" min="0" placeholder="Enter age in years"><br><br>
+                    <label for="age">Age of Turtle: (Enter age in years)</label>
+                    <input type="number" id="age" name="age" min="0" value="0"><br><br>
 
-                    <label for="size">Size of Turtle:</label>
-                    <input type="number" id="size" name="size" min="1" placeholder="Enter size in cm"><br><br>
+                    <label for="size">Size of Turtle: (Enter size in cm)</label>
+                    <input type="number" id="size" name="size" min="1" value="1"><br><br>
 
                     <button type="button" onclick="calculateFeeding()">Calculate Feeding</button>
                 </form>
                 <div id="feedingResults"></div>
-                <div id="qr"><img src="images/qr.png" alt="QR Code"> Scan QR code to view on mobile</div>
+                <img src="images/qr.png" alt="QR Code" class="qr">
             </div>
 
         </div>

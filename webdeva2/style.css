@@ -200,9 +200,7 @@ nav a {
     margin: 0 auto;           
 }
 /* Game Page */
-#page4 {
-
-}
+#page4 {}
 #page4game {
     width: 80%;
     max-width: 800px;
@@ -225,7 +223,7 @@ nav a {
     }
 
     qr {
-        display: flex;
+        display: block;
     }
 }
 
@@ -251,8 +249,13 @@ nav a {
 
     qr {
         display: none;
-        justify-content: center;
-        align-items: center;
+    }
+
+    #pagecontainer {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        background: rgba(59, 156, 177);
     }
 }
 
