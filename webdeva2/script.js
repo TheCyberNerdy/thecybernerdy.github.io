@@ -93,6 +93,7 @@ document.querySelector("#upBtn").addEventListener("click", function() {
 document.querySelector("#downBtn").addEventListener("click", function() {
 	movePos(0, 10);
 });
+// reset button 
 document.querySelector("#resetBtn").addEventListener("click", resetGame);
 
 function updatePlayerPosition() {
