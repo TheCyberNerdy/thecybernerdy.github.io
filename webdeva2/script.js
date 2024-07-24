@@ -93,7 +93,7 @@ document.querySelector("#upBtn").addEventListener("click", function() {
 document.querySelector("#downBtn").addEventListener("click", function() {
 	movePos(0, 10);
 });
-document.querySelector("#resetBtn").addEventListener("click", resetPos);
+document.querySelector("#resetBtn").addEventListener("click", resetGame);
 
 function updatePlayerPosition() {
 	ball.style.left = playerX + "px";
