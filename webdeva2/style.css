@@ -222,7 +222,7 @@ nav a {
         display: flex;
     }
 
-    qr {
+    .qr {
         display: block;
     }
 }
@@ -247,7 +247,7 @@ nav a {
         text-align: center;
     }
 
-    qr {
+    .qr {
         display: none;
     }
 
